@@ -3,74 +3,89 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Contact Me - My Portfolio</title>
   </head>
   <body>
-      <header>
+    <header>
       <h1>Meklit Kassahun, software engineering student</h1>
       <nav>
-        <a href="#about">About</a>
-        <a href="#skills">Skills</a>
-        <a href="#contact">Contact</a>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="contact.html">Contact</a>
       </nav>
     </header>
-    <h1>Contact me</h1>
-    <div>
-      <a
-            class="social github"
-            href="https://github.com/mk2252"
-            target="_blank"
-            rel="noreferrer"
-            >GitHub</a
-          >
-          <a
-            class="social linkedin"
-            href="https://www.linkedin.com/in/meklit-kassahun-479666376/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcjzWRlusSqC6n%2BzFkA7tLA%3D%3D"
-            target="_blank"
-            rel="noreferrer"
-            >LinkedIn</a
-          >
-          <a
-            class="social telegram"
-            href="https://t.me/MekLit344"
-            target="_blank"
-            rel="noreferrer"
-            >Telegram</a
-          >
-          <a class="social email" href="mailto:meklitkassahun.88@gmail.com"
-            >Email</a
-          >
-        </div>
-    </div>
 
-    <form
-      class="contact-form"
-      action="mailto:meklitkassahun.88@gmail.com"
-      method="POST"
-    >
-      <label>
-        Name
-        <input type="text" name="name" placeholder="Your name" required />
-      </label>
-      <label>
-        Email
-        <input
-          type="email"
-          name="email"
-          placeholder="you@example.com"
-          required
-        />
-      </label>
-      <label>
-        Message
-        <textarea
-          name="message"
-          rows="4"
-          placeholder="say something..."
-          required
-        ></textarea>
-      </label>
-      <button type="submit">Send Email</button>
-    </form>
+    <section id="contact">
+      <h1>Contact me</h1>
+      <div>
+        <a
+          class="social github"
+          href="https://github.com/mk2252"
+          target="_blank"
+          rel="noreferrer"
+          >GitHub</a
+        >
+        <br />
+        <a
+          class="social linkedin"
+          href="https://www.linkedin.com/in/meklit-kassahun-479666376/?lipi=urn%3Ali%3Apage%3Ad_flagship3_profile_view_base_contact_details%3BcjzWRlusSqC6n%2BzFkA7tLA%3D%3D"
+          target="_blank"
+          rel="noreferrer"
+          >LinkedIn</a
+        >
+        <br />
+        <a
+          class="social telegram"
+          href="https://t.me/MekLit344"
+          target="_blank"
+          rel="noreferrer"
+          >Telegram</a
+        >
+        <br />
+        <a class="social email" href="mailto:meklitkassahun.88@gmail.com"
+          >Email</a
+        >
+      </div>
+    </section>
+
+    <section id="contact-form">
+      <h2>Send me a message</h2>
+      <form
+        class="contact-form"
+        action="mailto:meklitkassahun.88@gmail.com"
+        method="POST"
+      >
+        <label>
+          Name
+          <input type="text" name="name" placeholder="Your name" required />
+        </label>
+        <br /><br />
+        <label>
+          Email
+          <input
+            type="email"
+            name="email"
+            placeholder="you@example.com"
+            required
+          />
+        </label>
+        <br /><br />
+        <label>
+          Message
+          <textarea
+            name="message"
+            rows="4"
+            placeholder="say something..."
+            required
+          ></textarea>
+        </label>
+        <br /><br />
+        <button type="submit">Send Email</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>© 2025 Meklit Kassahun</p>
+    </footer>
   </body>
 </html>
